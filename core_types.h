@@ -5,6 +5,7 @@
 #include <stddef.h>
 #include <stdint.h>
 #include <uchar.h>
+#include <wchar.h>
 
 typedef int8_t i8;
 typedef int16_t i16;
