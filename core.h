@@ -10,5 +10,6 @@
 #include "core_time.h"
 #include "core_handle.h"
 #include "core_bits.h"
+#include "core_serialize.h"
 
 #endif // CORE_H
