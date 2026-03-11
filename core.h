@@ -7,5 +7,6 @@
 #include "core_string.h"
 #include "core_math.h"
 #include "core_slice.h"
+#include "core_time.h"
 
 #endif // CORE_H
