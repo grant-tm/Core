@@ -11,5 +11,6 @@
 #include "core_handle.h"
 #include "core_bits.h"
 #include "core_serialize.h"
+#include "core_hash.h"
 
 #endif // CORE_H
