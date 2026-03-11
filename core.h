@@ -5,5 +5,6 @@
 #include "core_assert.h"
 #include "core_memory.h"
 #include "core_string.h"
+#include "core_math.h"
 
 #endif // CORE_H
