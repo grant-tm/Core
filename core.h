@@ -8,5 +8,7 @@
 #include "core_math.h"
 #include "core_slice.h"
 #include "core_time.h"
+#include "core_handle.h"
+#include "core_bits.h"
 
 #endif // CORE_H
