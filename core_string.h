@@ -3,7 +3,13 @@
 
 #include "core_memory.h"
 
-#define StringLiteral(value) ((String) {(c8 *) (value), sizeof(value) - 1})
+typedef struct StringLiteral
+{
+    const c8 *data;
+    usize count;
+} StringLiteral;
+
+#define StringLiteral_Create(value) ((StringLiteral) {(value), sizeof(value) - 1})
 
 typedef struct String
 {
@@ -15,6 +21,7 @@ usize CString_Length (const c8 *c_string);
 i32 CString_Compare (const c8 *left, const c8 *right);
 
 String String_Create (c8 *data, usize count);
+String String_FromLiteral (StringLiteral literal);
 String String_FromCString (c8 *c_string);
 b32 String_IsEmpty (String string);
 b32 String_Equals (String left, String right);

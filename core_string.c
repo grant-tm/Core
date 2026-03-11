@@ -41,6 +41,11 @@ String String_Create (c8 *data, usize count)
     return result;
 }
 
+String String_FromLiteral (StringLiteral literal)
+{
+    return String_Create((c8 *) literal.data, literal.count);
+}
+
 String String_FromCString (c8 *c_string)
 {
     if (c_string == NULL)
