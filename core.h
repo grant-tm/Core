@@ -6,5 +6,6 @@
 #include "core_memory.h"
 #include "core_string.h"
 #include "core_math.h"
+#include "core_slice.h"
 
 #endif // CORE_H
