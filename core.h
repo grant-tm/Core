@@ -12,5 +12,6 @@
 #include "core_bits.h"
 #include "core_serialize.h"
 #include "core_hash.h"
+#include "core_random.h"
 
 #endif // CORE_H
