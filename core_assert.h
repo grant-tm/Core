@@ -3,7 +3,7 @@
 
 #include <stdlib.h>
 
-#include "core_types.h"
+#include "core_base.h"
 
 #ifndef CORE_ASSERTS_ENABLED
     #if defined(CORE_ENABLE_ASSERTS)

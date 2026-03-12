@@ -8,7 +8,6 @@
 #define MEMORY_GIGABYTES(value) (MEMORY_MEGABYTES(value) * 1024u)
 
 #define MEMORY_DEFAULT_ALIGNMENT ((usize) sizeof(void *))
-#define ARRAY_COUNT(array) (sizeof(array) / sizeof((array)[0]))
 
 #define Memory_ZeroStruct(value) Memory_Zero((value), sizeof(*(value)))
 #define Memory_ZeroArray(values, count) Memory_Zero((values), sizeof(*(values)) * (count))
