@@ -122,6 +122,11 @@ f32 F32_Tan (f32 radians)
     return tanf(radians);
 }
 
+f32 F32_Tanh (f32 value)
+{
+    return tanhf(value);
+}
+
 f32 F32_Asin (f32 value)
 {
     ASSERT((value >= -1.0f) && (value <= 1.0f));
@@ -250,6 +255,11 @@ f64 F64_Cos (f64 radians)
 f64 F64_Tan (f64 radians)
 {
     return tan(radians);
+}
+
+f64 F64_Tanh (f64 value)
+{
+    return tanh(value);
 }
 
 f64 F64_Asin (f64 value)
